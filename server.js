@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Сервер работает 🚀2322");
+  res.send("Сервер работает 🚀цццйцуфывфы2322");
 });
 
 const PORT = process.env.PORT || 3000;
