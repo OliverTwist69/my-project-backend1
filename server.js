@@ -62,7 +62,7 @@ app.get("/responses/:jobId", async (req, res) => {
 
 // 🧪 ТЕСТ
 app.get("/", (req, res) => {
-  res.send("Сервер работает 🚀");
+  res.send("Сервер работает 🚀11221");
 });
 
 
