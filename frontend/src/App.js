@@ -113,6 +113,8 @@ function App() {
       <Header isLoggedIn={isLoggedIn} email={email} onLogout={logout} />
 
       <main className="container">
+        <h2 className="home-subtitle">ПРИВЕТ</h2>
+
         {isLoggedIn ? (
           <UserProfile email={email} onLogout={logout} />
         ) : (
